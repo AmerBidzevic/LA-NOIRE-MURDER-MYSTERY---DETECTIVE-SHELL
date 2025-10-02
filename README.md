@@ -32,9 +32,9 @@ gcc -o OS-Noire-Shell OS-Noire-Shell.c
 
 ---
 ## Troubleshooting
-If evidence files don't appear:
-    mkdir -p case_files
-    chmod 755 case_files
+If evidence files don't appear:  
+    mkdir -p case_files  
+    chmod 755 case_files  
 Then re-launch the game.
 
 ---
@@ -49,14 +49,14 @@ Then re-launch the game.
 - `status` – Check investigation progress  
 - `help` – List all commands  
 - `exit` – Quit investigation  
-- mv [source] [destination] - Move a file from source to destination
-- du [file]             - Display the size of a file
-- date                  - Display the current system date and time
-- rev [file]            - Reverse the contents of a file
-- forkbomb              - Create a fork bomb (use cautiously)
-- ls [directory]        - List contents of a directory
-- ld [file]             - List the dynamic libraries linked to a file
-- cat [file]            - Display the contents of a file
+- `mv [source] [destination]` - Move a file from source to destination
+- `du [file]`             - Display the size of a file
+- `date`                  - Display the current system date and time
+- `rev [file]`            - Reverse the contents of a file
+- `forkbomb`              - Create a fork bomb (use cautiously)
+- `ls [directory]`        - List contents of a directory
+- `ld [file]`             - List the dynamic libraries linked to a file
+- `cat [file]`            - Display the contents of a file
   
 ---
 
